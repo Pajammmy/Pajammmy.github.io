@@ -1,0 +1,39 @@
+.container {
+    margin: 20px 50px;
+    border: 1px solid black;
+    padding: 100px;
+    background-color: white;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.nav li a:hover {
+    background-color: aliceblue;
+}
+
+.active-navpage{
+    background-color: lightskyblue;
+}
