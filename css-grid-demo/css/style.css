@@ -1,0 +1,93 @@
+body {
+    background-color: green;
+}
+
+/*this is my grid style for all pages*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: rgb(135, 44, 44);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navmenu {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.main-image {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+.main1 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.main2 {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}
+
+.support1 {
+    grid-column: 2 / span 1;
+    grid-row: 4;
+}
+
+.support2 {
+    grid-column: 1 / span 1;
+    grid-row: 4;
+}
+
+.sidebox {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 3;
+}
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(222, 228, 239);
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+.nav li a:hover {
+    background-color: rgb(204, 200, 177);
+}
+
+.active-navpage {
+    background-color: rgb(246, 251, 255);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(60, 56, 55);
+    color: white;
+    text-align: center;
+}
