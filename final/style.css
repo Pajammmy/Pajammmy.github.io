@@ -1,0 +1,31 @@
+.reg {
+    font-family: "alfabet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bold {
+    font-family: "alfabet", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.italic {
+    font-family: "alfabet", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.form-group {
+    margin-bottom: 100px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(60, 56, 55);
+    color: white;
+    text-align: center;
+}
