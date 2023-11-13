@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/lnl2buu.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lnl2buu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .carousel-caption {
+            top: 0;
+            bottom: auto;
+        }
+    </style>
+</head>
+
+<body class="text-white" style="background-color: rgb(212, 151, 94);">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(5, 16, 118);">
+            <div class="container-fluid">
+
+                <ul class="navbar-nav reg">
+                    <li>
+                        <h2 class="bold" style="padding-right: 20px; padding-left: 15px;">MEDINA </h2>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="mission.html">Mission</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="staff.html">Staff</a></li>
+                    <li class="nav-item"> <a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container p-3 m-3 mx-auto border reg2"
+            style="max-width: 97%; background-color: rgb(145, 153, 236);">
+            <div class="row form-group row-bottom-margin">
+                <h1 class="reg">Have questions? Feel free to reach out!</h1>
+            </div>
+            <p class="reg2">First, kindly let us know your first name.</p>
+            <form action="" id="name-form" class="reg2">
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname"><br>
+
+                <label for="flastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname"><br>
+
+            </form>
+            <br>
+            <input type="button" value="submit" onclick="greet()">
+            <p id="greet" style="font-size: x-large" class="reg2"></p>
+            <p style="padding-bottom: 50px;"></p>
+            <h2 class="reg">Find your teacher!</h2>
+            <p class="reg2">Which grade is your student in?</p>
+            <p id="teacher-answer"></p>
+            <form action="" class="reg2">
+                <input type="radio" name="teacher" id="first">
+                <label for="first">1st</label><br>
+                <input type="radio" name="teacher" id="second">
+                <label for="second">2nd</label><br>
+                <input type="radio" name="teacher" id="third">
+                <label for="third">3rd</label><br>
+                <input type="radio" name="teacher" id="fourth">
+                <label for="fourth">4th</label><br>
+                <input type="radio" name="teacher" id="fifth">
+                <label for="fifth">5th</label><br>
+
+            </form>
+            <br>
+            <input type="button" Value="submit" onclick="teacher()">
+            <p style="padding-bottom: 50px;"></p>
+            <script src="java.js"></script>
+
+
+            <div class="row" style="text-align: center;">
+                <div class="col-md-12 italic2">
+                    <p>The Bellevue School District acknowledges that we learn, work, live and gather on the Indigenous
+                        Land
+                        of the Coast Salish peoples, specifically the Duwamish and Snoqualmie Tribes. We thank these
+                        caretakers of this land, who have lived and continue to live here, since time immemorial.</p>
+                </div>
+
+            </div>
+            <div class="footer reg2">
+                <p style="text-align: center; font-size: medium; background-color: rgb(5, 16, 118);">
+                    Medina Elementary School
+                    8001 NE 8th Street, Medina, WA 98039
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -10,9 +10,9 @@ function greet() {
     // get values from the form
     fname = document.getElementById("fname").value;
     let lastname = document.getElementById("lastname").value;
-    let age = document.getElementById("age").value;
 
-    greetParagraph.innerHTML = "Greetings " + age +
+
+    greetParagraph.innerHTML = "Greetings " +
         " year old " + fname + " " + lastname + "!";
 }
 

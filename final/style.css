@@ -29,3 +29,19 @@
     color: white;
     text-align: center;
 }
+
+.row-bottom-margin {
+    margin-bottom: 5px;
+}
+
+.reg2 {
+    font-family: "lft-etica-sheriff", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.italic2 {
+    font-family: "lft-etica-sheriff", serif;
+    font-weight: 400;
+    font-style: italic;
+}
